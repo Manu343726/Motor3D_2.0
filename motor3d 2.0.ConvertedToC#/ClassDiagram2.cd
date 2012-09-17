@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Motor3D.Algebra.Cuaternion" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAUgAhAwgAAQAAAESCAcBAAABABgAAAAEEgArQkAAAA=</HashCode>
+      <FileName>Cuaternion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.Ecuacion" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAEAAAIAAAAAACQAAAAAAAQ=</HashCode>
+      <FileName>Ecuacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionAlgebraica" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionAlgebraica.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionMatriz" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionMatriz.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionMatrizNoCuadrada" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionMatrizNoCuadrada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionOperacionMatricial" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionOperacionMatricial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionSubMatriz" Collapsed="true">
+    <Position X="7.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionSubMatriz.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.Matriz" Collapsed="true">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aAUQIgAEAIAgCAAUYACAAAAhAAigACDIAwIQAQEEBoQ=</HashCode>
+      <FileName>Matriz.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.ObjetoAlgebraico" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoAlgebraico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.SistemaEcuaciones" Collapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAACUAQEAgAAAAAAIgAEAICIIAAIgAAAAAA=</HashCode>
+      <FileName>SistemaEcuaciones.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Algebra.SolucionSistema" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAIAAAAAA=</HashCode>
+      <FileName>SolucionSistema.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Caja2D" Collapsed="true">
+    <Position X="24.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABQkAAAAQgAAEAAAQAAAAAECIAQAACASBwACAAAA=</HashCode>
+      <FileName>Caja2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Circunferencia2D" Collapsed="true">
+    <Position X="29.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgIQAiAEAQAABEAAAABAAAAEAAACAAAAAAoAEIBAA=</HashCode>
+      <FileName>Circunferencia2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.ComparerPunto2D" Collapsed="true">
+    <Position X="33.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ComparerPunto2D.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Motor3D.Espacio2D.ExcepcionGeometrica2D" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionGeometrica2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Figura2D" Collapsed="true">
+    <Position X="18" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAQAAABIAAAgABJAAEAARAAAgAABAIAAIAwgAkBAg=</HashCode>
+      <FileName>Figura2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.ObjetoGeometrico2D" Collapsed="true">
+    <Position X="28.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoGeometrico2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Poligono2D" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiCAAAAAAAIAEAAAAAAAABAAIAAAAEAAAgIABBgA=</HashCode>
+      <FileName>Poligono2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.PosicionRelativa2D" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAABABAAAAAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>PosicionRelativa2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Punto2D" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAWAAwgABAAAAAAEgAAAAgABEACgAABAABAAAAAAZBA=</HashCode>
+      <FileName>Punto2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Quadtree" Collapsed="true">
+    <Position X="31.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgCAAAAAAEAAAAQAACAEBAAAAACAAAAAAAEAE=</HashCode>
+      <FileName>Quadtree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Recta2D" Collapsed="true">
+    <Position X="36" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgABAwAAAQCAAEAAAABABBIEAACAAEAAAgoAEAIRA=</HashCode>
+      <FileName>Recta2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.SectorQuadtree" Collapsed="true">
+    <Position X="38.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQEIAADgAEAAAAAiAAAAACIEhAAAAACAAAABACEAw=</HashCode>
+      <FileName>SectorQuadtree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Segmento2D" Collapsed="true">
+    <Position X="40.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAASCCEAAAAAADABEAAAAAAAAAAiYAIAQQ=</HashCode>
+      <FileName>Segmento2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Transformacion2D" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAGAAAAAAAAAAAAkAAAAAAAAAAFgAAQAEAAAAAACAAg=</HashCode>
+      <FileName>Transformacion2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Vector2D" Collapsed="true">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEEAAwgAAABAAAAEgAAAACABAABgAABAABAACQQQYAI=</HashCode>
+      <FileName>Vector2D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Caja3D" Collapsed="true">
+    <Position X="49.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAQsAAAAAgAAEIAAQAAAAAECIAQAAGASAwAAAAAI=</HashCode>
+      <FileName>Caja3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.ExcepcionGeometrica3D" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionGeometrica3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.ObjetoGeometrico3D" Collapsed="true">
+    <Position X="60.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoGeometrico3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Octree" Collapsed="true">
+    <Position X="67.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgCAAAAAAEAAAAQAACAEBAAAAACAAAAAAAEAE=</HashCode>
+      <FileName>Octree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Plano3D" Collapsed="true">
+    <Position X="69.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAwAAAQAAAEAAAIBABAAEAICAAAAAAgpAEAAAA=</HashCode>
+      <FileName>Plano3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.PosicionRelativa3D" Collapsed="true">
+    <Position X="42.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAABABAAAAAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>PosicionRelativa3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Punto3D" Collapsed="true">
+    <Position X="45" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAWAAwgABAAAABAEgAAAAgABACAgAAAAABAAAAAAYAU=</HashCode>
+      <FileName>Punto3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Recta3D" Collapsed="true">
+    <Position X="51.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEGAABAwAAAACACEAAAAgAgBIEAAAAAIAABAAgAAABI=</HashCode>
+      <FileName>Recta3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.SectorOctree" Collapsed="true">
+    <Position X="54" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEIgADiAMAAAAAiAAAAACAEhAAAAACAAAABACEAg=</HashCode>
+      <FileName>SectorOctree.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Segmento3D" Collapsed="true">
+    <Position X="56.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACCAAAEAASAAEAgAAAAAADEAAAAAAAAAAAQAAABQ=</HashCode>
+      <FileName>Segmento3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Vector3D" Collapsed="true">
+    <Position X="58.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZEWCAwgAgABAABAEyAAAACABADBgEAAAABAACQAQYAc=</HashCode>
+      <FileName>Vector3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Camara3D" Collapsed="true">
+    <Position X="94.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAkAiQgQgIAAEQBGGAAoCAAAAgAAEQAAAARAggAALxU=</HashCode>
+      <FileName>Camara3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.ElementoZBuffer" Collapsed="true">
+    <Position X="96.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAwgAAEAAAgQBAAAAAAAAACAAAAAAAAAAEAAABAE=</HashCode>
+      <FileName>ElementoZBuffer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Motor3D.Escena.ExcepcionEscena" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionEscena.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Foco3D" Collapsed="true">
+    <Position X="81" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQgAAAAAAAAEAAAACAQAAAIAAAAAAAAAgAAABgA=</HashCode>
+      <FileName>Foco3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Motor3D" Collapsed="true">
+    <Position X="83.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYOQgAwEAACAgAQABAAgACAAAAECABAQAMMBYAAhRAI=</HashCode>
+      <FileName>Motor3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.ObjetoEscena" Collapsed="true">
+    <Position X="89" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoEscena.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Proyeccion" Collapsed="true">
+    <Position X="85.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAAAAAAAAAAgAAACAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proyeccion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.ZBuffer" Collapsed="true">
+    <Position X="90" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAgBAAAAAMAAAAAAAAFgAAAAIAAAAEAAABBA=</HashCode>
+      <FileName>ZBuffer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.Cara" Collapsed="true">
+    <Position X="76.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEqQCBABCABAAQAECCAYAhQAiACAAEAoEQAAgABAhkA=</HashCode>
+      <FileName>Cara.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.ExcepcionPrimitiva3D" Collapsed="true">
+    <Position X="11.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionPoliedrica.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.ObjetoPrimitiva3D" Collapsed="true">
+    <Position X="74.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoPoliedrico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.OctreeGrafico" Collapsed="true">
+    <Position X="78.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgCAAAAAAEAAAAQAACAEAAAAAACAAAAAAAEAE=</HashCode>
+      <FileName>OctreeGrafico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.Poliedro" Collapsed="true">
+    <Position X="72" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAIQoegCAGlAAQBkA2AAhsKAqCQQAAQgFACAEDHABgE=</HashCode>
+      <FileName>Poliedro.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.SectorOctreeGrafico" Collapsed="true">
+    <Position X="47.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAFgAMAAEAACAYACACAEAAAAAACAAIgBACEgw=</HashCode>
+      <FileName>SectorOctreeGrafico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Primitivas3D.Vertice" Collapsed="true">
+    <Position X="74.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCoQDBAIACAAAAAkCAAQCMQACAAAAAAAAAAAgABAAgA=</HashCode>
+      <FileName>Vertice.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Transformaciones.Escalado" Collapsed="true">
+    <Position X="60.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAgAAAAAAAAgAAAAAAAAAAABAAQAAAAAAAACAAA=</HashCode>
+      <FileName>Escalado.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Transformaciones.Rotacion" Collapsed="true">
+    <Position X="63" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YACAAAAABEgAAAAgAAAAAAAIAAAAAAAAMECAgAACBAA=</HashCode>
+      <FileName>Rotacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Transformaciones.Transformacion3D" Collapsed="true">
+    <Position X="63" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAEAAAAAAAAAAAAkAAAAAAAAAAAgAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Transformacion3D.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Transformaciones.Traslacion" Collapsed="true">
+    <Position X="65.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YACAAAAAAAAAAAAgAAAAAAAAAAABAAAAAEAAAAACAAA=</HashCode>
+      <FileName>Traslacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.ExcepcionBase" Collapsed="true">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.ExcepcionGeometrica" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionGeometrica.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.ObjetoBase" Collapsed="true">
+    <Position X="50.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.ObjetoGeometrico" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoGeometrico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Renders.ExcepcionRender" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionRender.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Renders.Render" Collapsed="true">
+    <Position X="87.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMAAAAAAAACgAAAAAAAAAAAAQAoAAAAAAAgQKA=</HashCode>
+      <FileName>Render.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Shading.ExcepcionShading" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionShading.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Shading.ObjetoShading" Collapsed="true">
+    <Position X="92.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObjetoShading.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Shading.PhongShader" Collapsed="true">
+    <Position X="92.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQCAAAAAAAAEGAAAAAACAgAAAAAAIAAAAIgAAQBAA=</HashCode>
+      <FileName>PhongShader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.My.MySettings" Collapsed="true">
+    <Position X="99.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Utilidades.Ordenamiento" Collapsed="true">
+    <Position X="101" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ordenamiento.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Motor3D.Escena.Renders.GDI.RenderGDI">
+    <Position X="87.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAAAAAACQIoCAAAAABAAIQAoAUAACAAAQSA=</HashCode>
+      <FileName>RenderGDI+.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Motor3D.Algebra.AngulosEuler" Collapsed="true">
+    <Position X="99.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAIAAAEAAAAIEAAAgAAAAAAAAAgBAAAAAAAAAAAA=</HashCode>
+      <FileName>AngulosEuler.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Motor3D.Algebra.TipoSolucionSistema" Collapsed="true">
+    <Position X="101" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SolucionSistema.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Motor3D.Espacio2D.TipoPosicionRelativa2D" Collapsed="true">
+    <Position X="101" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>PosicionRelativa2D.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Motor3D.Espacio3D.EnumEjes" Collapsed="true">
+    <Position X="99.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumEjes.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Motor3D.Espacio3D.TipoPosicionRelativa3D" Collapsed="true">
+    <Position X="99.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>PosicionRelativa3D.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="Motor3D.My.Resources.Resources" Collapsed="true">
+    <Position X="101" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Motor3D.My.MySettingsProperty" Collapsed="true">
+    <Position X="99.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

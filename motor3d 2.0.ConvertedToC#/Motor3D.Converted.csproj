@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C788223-46F8-4E98-812F-EF35B00B193F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Motor3D</RootNamespace>
+    <AssemblyName>Motor3D</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags />
+    <UpgradeBackupLocation />
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\Motor3D 2.0\bin\Debug\</OutputPath>
+    <DocumentationFile>Motor3D.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <WarningsAsErrors />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Motor3D.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <WarningsAsErrors />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AngulosEuler.cs" />
+    <Compile Include="AristaGrafo.cs" />
+    <Compile Include="Caja2D.cs" />
+    <Compile Include="Caja3D.cs" />
+    <Compile Include="Camara3D.cs" />
+    <Compile Include="Cara.cs" />
+    <Compile Include="Circunferencia2D.cs" />
+    <Compile Include="Cuaternion.vb" />
+    <Compile Include="Ecuacion.cs" />
+    <Compile Include="ElementoZBuffer.cs" />
+    <Compile Include="EnumEjes.cs" />
+    <Compile Include="Escalado.cs" />
+    <Compile Include="ExcepcionAlgebraica.cs" />
+    <Compile Include="ExcepcionBase.cs" />
+    <Compile Include="ExcepcionDiscreta.cs" />
+    <Compile Include="ExcepcionEscena.cs" />
+    <Compile Include="ExcepcionGeometrica.cs" />
+    <Compile Include="ExcepcionGeometrica2D.cs" />
+    <Compile Include="ExcepcionGeometrica3D.cs" />
+    <Compile Include="ExcepcionMatriz.cs" />
+    <Compile Include="ExcepcionMatrizNoCuadrada.cs" />
+    <Compile Include="ExcepcionOperacionMatricial.cs" />
+    <Compile Include="ExcepcionPoliedrica.cs" />
+    <Compile Include="ExcepcionRender.cs" />
+    <Compile Include="ExcepcionShading.cs" />
+    <Compile Include="ExcepcionSubMatriz.cs" />
+    <Compile Include="Figura2D.cs" />
+    <Compile Include="Foco3D.cs" />
+    <Compile Include="Grafo.cs" />
+    <Compile Include="Matriz.cs" />
+    <Compile Include="Motor3D.cs" />
+    <Compile Include="My Project\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.cs" />
+    <Compile Include="My Project\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyNamespaceSupportForCSharp.cs" />
+    <Compile Include="ObjetoAlgebraico.cs" />
+    <Compile Include="ObjetoBase.cs" />
+    <Compile Include="ObjetoEscena.cs" />
+    <Compile Include="ObjetoGeometrico.cs" />
+    <Compile Include="ObjetoGeometrico2D.cs" />
+    <Compile Include="ObjetoGeometrico3D.cs" />
+    <Compile Include="ObjetoPoliedrico.cs" />
+    <Compile Include="ObjetoShading.cs" />
+    <Compile Include="Octree.cs" />
+    <Compile Include="OctreeGrafico.cs" />
+    <Compile Include="Ordenamiento.cs" />
+    <Compile Include="PhongShader.cs" />
+    <Compile Include="Plano3D.cs" />
+    <Compile Include="Poliedro.cs" />
+    <Compile Include="Poligono2D.cs" />
+    <Compile Include="PosicionRelativa2D.cs" />
+    <Compile Include="PosicionRelativa3D.cs" />
+    <Compile Include="Proyeccion.cs" />
+    <Compile Include="Punto2D.cs" />
+    <Compile Include="Punto3D.cs" />
+    <Compile Include="Quadtree.cs" />
+    <Compile Include="Recorrido.cs" />
+    <Compile Include="Recta2D.cs" />
+    <Compile Include="Recta3D.cs" />
+    <Compile Include="Render.cs" />
+    <Compile Include="RenderGDI+.cs" />
+    <Compile Include="Rotacion.vb" />
+    <Compile Include="SectorOctree.cs" />
+    <Compile Include="SectorOctreeGrafico.cs" />
+    <Compile Include="SectorQuadtree.cs" />
+    <Compile Include="Segmento2D.cs" />
+    <Compile Include="Segmento3D.cs" />
+    <Compile Include="SistemaEcuaciones.cs" />
+    <Compile Include="SolucionSistema.cs" />
+    <Compile Include="Transformacion2D.vb" />
+    <Compile Include="Transformacion3D.cs" />
+    <Compile Include="Traslacion.cs" />
+    <Compile Include="Vector2D.vb" />
+    <Compile Include="Vector3D.vb" />
+    <Compile Include="Vertice.cs" />
+    <Compile Include="VerticeGrafo.cs" />
+    <Compile Include="ZBuffer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+    <Content Include="Motor3D.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

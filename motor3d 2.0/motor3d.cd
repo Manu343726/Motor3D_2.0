@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Motor3D.My.MyApplication" Collapsed="False">
+    <Position X="0.5" Y="36.8" Width="2.356413" />
+    <Compartments />
+  </Class>
+  <Class Name="Motor3D.My.MyComputer" Collapsed="False">
+    <Position X="0.5" Y="37.9" Width="2.356413" />
+    <Compartments />
+  </Class>
+  <Class Name="Motor3D.My.MyProject" Collapsed="False">
+    <Position X="0.5" Y="39" Width="2.44466" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.EspacioPoliedrico.ExcepcionPoliedrica" Collapsed="False">
+    <Position X="3" Y="31.4" Width="1.827775" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Enum Name="Motor3D.Algebra.TipoSolucionSistema" Collapsed="False">
+    <Position X="0.5" Y="40.6" Width="3.554347" />
+    <Compartments />
+  </Enum>
+  <Class Name="Motor3D.Algebra.SolucionSistema" Collapsed="False">
+    <Position X="81.3" Y="6.7" Width="2.767179" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.ObjetoGeometrico3D" Collapsed="False">
+    <Position X="22.2" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Shading.ExcepcionShading" Collapsed="False">
+    <Position X="0.5" Y="27.2" Width="1.744738" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Transformacion3D" Collapsed="False">
+    <Position X="22.2" Y="9.8" Width="2.966071" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.AABB3D" Collapsed="False">
+    <Position X="25.5" Y="9.8" Width="2.228756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Figura2D" Collapsed="False">
+    <Position X="55.6" Y="15.3" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Foco3D" Collapsed="False">
+    <Position X="0.5" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.ObjetoBase" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.ObjetoEscena" Collapsed="False">
+    <Position X="0.5" Y="3.6" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.EspacioPoliedrico.ObjetoPoliedrico" Collapsed="False">
+    <Position X="28.1" Y="9.8" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Shading.ObjetoShading" Collapsed="False">
+    <Position X="3.2" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Camara3D" Collapsed="False">
+    <Position X="7.4" Y="6.7" Width="2.901271" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.ElementoZBuffer" Collapsed="False">
+    <Position X="10.7" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Vector2D" Collapsed="False">
+    <Position X="51" Y="9.8" Width="1.43213" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Vector3D" Collapsed="False">
+    <Position X="38.2" Y="9.8" Width="1.946046" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.EspacioPoliedrico.Vertice" Collapsed="False">
+    <Position X="28.2" Y="12.9" Width="2.032897" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.EspacioPoliedrico.Cara" Collapsed="False">
+    <Position X="30.5" Y="12.9" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Plano3D" Collapsed="False">
+    <Position X="40.5" Y="9.8" Width="2.403502" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Circunferencia2D" Collapsed="False">
+    <Position X="52.7" Y="9.8" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Poligono2D" Collapsed="False">
+    <Position X="55.5" Y="9.8" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.ZBuffer" Collapsed="False">
+    <Position X="13.5" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.Ecuacion" Collapsed="False">
+    <Position X="84.4" Y="6.7" Width="1.837472" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Shading.ConstantesPhong" Collapsed="False">
+    <Position X="3.3" Y="9.8" Width="3.457213" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionMatriz" Collapsed="False">
+    <Position X="0.5" Y="34.1" Width="1.63737" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Motor3D" Collapsed="False">
+    <Position X="16.3" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionSubMatriz" Collapsed="False">
+    <Position X="0.5" Y="35.5" Width="1.838947" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Enum Name="Motor3D.Espacio2D.TipoPosicionRelativa2D" Collapsed="False">
+    <Position X="0.5" Y="42.1" Width="2.584005" />
+    <Compartments />
+  </Enum>
+  <Class Name="Motor3D.Espacio2D.PosicionRelativa2D" Collapsed="False">
+    <Position X="58.7" Y="9.8" Width="2.099821" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Utilidades.Ordenamiento" Collapsed="False">
+    <Position X="0.5" Y="43.6" Width="1.523449" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.ObjetoGeometrico" Collapsed="False">
+    <Position X="22.1" Y="3.6" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Enum Name="Motor3D.Espacio3D.EnumEjes" Collapsed="False">
+    <Position X="0.5" Y="45.3" Width="1.535299" />
+    <Compartments />
+  </Enum>
+  <Class Name="Motor3D.Escena.ExcepcionEscena" Collapsed="False">
+    <Position X="0.5" Y="25.8" Width="1.706227" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.ExcepcionGeometrica" Collapsed="False">
+    <Position X="0.5" Y="28.6" Width="1.914518" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.ExcepcionGeometrica2D" Collapsed="False">
+    <Position X="0.5" Y="30" Width="2.059323" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.ExcepcionGeometrica3D" Collapsed="False">
+    <Position X="2.9" Y="30" Width="2.059323" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionAlgebraica" Collapsed="False">
+    <Position X="0.5" Y="32.7" Width="1.864943" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionMatrizNoCuadrada" Collapsed="False">
+    <Position X="2.6" Y="35.5" Width="2.279699" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ExcepcionOperacionMatricial" Collapsed="False">
+    <Position X="5.3" Y="35.5" Width="2.275402" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.EspacioPoliedrico.Poliedro" Collapsed="False">
+    <Position X="33.3" Y="12.9" Width="4.073708" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.My.Resources.Resources" Collapsed="False">
+    <Position X="0.5" Y="46.8" Width="2.472174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Escena.Proyeccion" Collapsed="False">
+    <Position X="19.1" Y="6.7" Width="2.223732" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.My.MySettings" Collapsed="False">
+    <Position X="0.5" Y="48.8" Width="2.186242" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.My.MySettingsProperty" Collapsed="False">
+    <Position X="0.5" Y="51.2" Width="1.579391" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.Matriz" Collapsed="False">
+    <Position X="86.6" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Enum Name="Motor3D.Espacio3D.TipoPosicionRelativa3D" Collapsed="False">
+    <Position X="0.5" Y="52.5" Width="2.584005" />
+    <Compartments />
+  </Enum>
+  <Class Name="Motor3D.Espacio3D.PosicionRelativa3D" Collapsed="False">
+    <Position X="43.3" Y="9.8" Width="2.099821" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Punto3D" Collapsed="False">
+    <Position X="45.8" Y="9.8" Width="2.105246" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Punto2D" Collapsed="False">
+    <Position X="61.2" Y="9.8" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Quadtree" Collapsed="False">
+    <Position X="64" Y="9.8" Width="2.02715" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.SectorQuadtree" Collapsed="False">
+    <Position X="66.4" Y="9.8" Width="2.511461" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Recta2D" Collapsed="False">
+    <Position X="69.3" Y="9.8" Width="2.403502" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio3D.Recta3D" Collapsed="False">
+    <Position X="48.3" Y="9.8" Width="1.805138" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.AABB2D" Collapsed="False">
+    <Position X="72.1" Y="9.8" Width="2.228756" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Segmento2D" Collapsed="False">
+    <Position X="74.7" Y="9.8" Width="1.928161" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.SistemaEcuaciones" Collapsed="False">
+    <Position X="89.4" Y="6.7" Width="2.141823" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.Transformacion2D" Collapsed="False">
+    <Position X="77.1" Y="9.8" Width="2.966071" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Algebra.ObjetoAlgebraico" Collapsed="False">
+    <Position X="81.2" Y="3.6" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Motor3D.Espacio2D.ObjetoGeometrico2D" Collapsed="False">
+    <Position X="50.9" Y="6.7" Width="2.373756" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
